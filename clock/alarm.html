@@ -7,13 +7,19 @@
 		<meta name="description" content="">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="http://127.0.0.1:3000/socket.io/socket.io.js"></script>
-		<script src="./clock.js"></script>
+		<script src="./alarm.js"></script>
 		<link rel="stylesheet" href="./clock.css">
 	</head>
 	<body>
 		<div id="wrapper">
-			<span id="time"></span><br/>
-			<span id="reserved"></span>
+			<form>
+				<input type="text" id="hour" value="" />時
+				<input type="text" id="minute" value="" />分
+				<br/>
+				<input type="radio" name="ampm" id="ampm" value="am" checked /> AM
+				<input type="radio" name="ampm" id="ampm" value="pm" /> PM
+				<input type="button" id="reserve" value="予約" />
+			</form>
 		</div>
 	</body>
 </html>
