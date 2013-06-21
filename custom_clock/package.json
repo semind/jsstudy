@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "directories": {},
+  "scripts": {},
+  "repository": {},
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-compass": "~0.2.0"
+  }
+}
